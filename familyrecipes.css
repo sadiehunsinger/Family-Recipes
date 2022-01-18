@@ -1,43 +1,43 @@
 h1 {
-  color: rgb(12, 71, 166);
+  color: rgb(245, 246, 248);
   text-align: center;
   font-weight: bold;
   letter-spacing: 10px;
   font-size: 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   width: 900px;
   border-color: black;
   border-width: 3px;
   border-style: dotted;
-  border-radius: 10%
+  border-radius: 10%;
 }
-h2 {
-  color: #461f9c;
-}
+
 h3 {
-  color: darkcyan;
   font-weight: normal;
 }
-h4 {
-  color: darkcyan;
-}
-h5 {
-  color: darkcyan;
-}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-  color: darkcyan;
+  color: white;
 }
+
 body {
-  background-color: #95bbcc;
+  background-color: #010b0f;
+  color: white;
 }
 button {
-  color: yellow
+  color: yellow;
 }
 button:hover {
-  color:white;
+  color: white;
   background-color: blueviolet;
+  font-size: 10px;
 }
-#googlebutton{
-  background-color: #212f45;
+#googlebutton {
+  background-color: yellow;
   color: #006466;
 }
