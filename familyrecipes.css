@@ -1,0 +1,43 @@
+h1 {
+  color: rgb(12, 71, 166);
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 900px;
+  border-color: black;
+  border-width: 3px;
+  border-style: dotted;
+  border-radius: 10%
+}
+h2 {
+  color: #461f9c;
+}
+h3 {
+  color: darkcyan;
+  font-weight: normal;
+}
+h4 {
+  color: darkcyan;
+}
+h5 {
+  color: darkcyan;
+}
+h6 {
+  color: darkcyan;
+}
+body {
+  background-color: #95bbcc;
+}
+button {
+  color: yellow
+}
+button:hover {
+  color:white;
+  background-color: blueviolet;
+}
+#googlebutton{
+  background-color: #212f45;
+  color: #006466;
+}
