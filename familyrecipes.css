@@ -4,41 +4,39 @@ h1 {
   font-weight: bold;
   letter-spacing: 10px;
   font-size: 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   width: 900px;
   border-color: black;
   border-width: 3px;
   border-style: dotted;
-  border-radius: 10%
+  border-radius: 10%;
 }
-h2 {
-  color: white;
-}
+
 h3 {
-  color: rgb(244, 247, 247);
   font-weight: normal;
 }
-h4 {
-  color: rgb(246, 250, 250);
-}
-h5 {
-  color: rgb(244, 247, 247);
-}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-  color: rgb(246, 248, 248);
+  color: white;
 }
+
 body {
   background-color: #010b0f;
-  color: white
+  color: white;
 }
 button {
-  color: yellow
+  color: yellow;
 }
 button:hover {
-  color:white;
+  color: white;
   background-color: blueviolet;
 }
-#googlebutton{
+#googlebutton {
   background-color: yellow;
   color: #006466;
 }
