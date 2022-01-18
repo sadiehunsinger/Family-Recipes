@@ -35,6 +35,7 @@ button {
 button:hover {
   color: white;
   background-color: blueviolet;
+  font-size: 10px;
 }
 #googlebutton {
   background-color: yellow;
