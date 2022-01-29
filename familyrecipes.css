@@ -1,43 +1,56 @@
-h1 {
-  color: rgb(245, 246, 248);
+nav {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+}
+
+.container {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+/* RECIPE LIST
+=============================================== */
+
+.recipe-list-item {
+  width: 18%;
+  height: 100%;
+  padding:.5em;
+  border-radius: 5%;
+}
+.recipe-list-item-img-container {
+  width: 100%;
+  height: 25rem;
+  border-radius: 5%;
+}
+
+.recipe-list-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.recipe-list-item-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  padding-top: 2px;
   text-align: center;
-  font-weight: bold;
-  letter-spacing: 10px;
-  font-size: 50px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  width: 900px;
-  border-color: black;
-  border-width: 3px;
-  border-style: dotted;
-  border-radius: 10%;
+  border-top: 1px solid white;
+  border-spacing: 5px;
+}
+.recipe-list-item:hover .recipe-list-item-img {
+  opacity: .5;
+  transition-duration: .5s;
 }
 
-h3 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: white;
-}
-
-body {
-  background-color: #010b0f;
-  color: white;
-}
-button {
-  color: yellow;
-}
-button:hover {
-  color: white;
-  background-color: blueviolet;
-  font-size: 10px;
-}
-#googlebutton {
-  background-color: yellow;
-  color: #006466;
+.recipe-list-item:hover .recipe-list-item-title {
+  color: rgb(99, 116, 192);
+  border-color: rgb(99, 116, 192);
+  transition-duration: .5s;
+  border-top: 1px solid rgb(197, 196, 196);
+  border-spacing: 5px;
 }
