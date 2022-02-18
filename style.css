@@ -1,0 +1,111 @@
+/* Reset
+------------------------------------ */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+html, input, textarea { -webkit-font-smoothing: antialiased; }
+body { margin: 0; text-rendering: optimizeLegibility; }
+img  { width: 100% }
+svg  { max-height: 100% }
+
+/* Page
+------------------------------------ */
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+/* Navigation 
+------------------------------------ */
+
+.nav-container {
+  width: 100%;
+  padding: 0 30px;
+  background-color: #598392;
+  text-align: center;
+  
+}
+
+.nav-container-nav {
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 0 10px 10px 10px;
+}
+
+.nav-container-nav li a {
+  display: block;
+  padding: 5px 15px;
+}
+
+.nav-container-logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+/* Recipe Grid 
+------------------------------------ */
+
+.recipe-list-item {
+  width: 18%;
+  height: 100%;
+  padding-left: 1em;
+  padding-right: .75em;
+  padding-bottom: 2em;
+  border-radius: 5%;
+}
+
+.recipe-list-item-img-container {
+  width: 100%;
+  height: 25rem;
+  border-radius: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
+
+.recipe-list-item-img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.recipe-list-item-title {
+  font-size: 1em;
+  padding-top: 8px;
+  text-align: center;
+  border-top: 1px solid white;
+  margin-top: 11px;
+}
+.recipe-list-item:hover .recipe-list-item-img {
+  opacity: .5;
+  transition-duration: .5s;
+}
+
+.recipe-list-item:hover .recipe-list-item-title {
+  color: rgb(99, 116, 192);
+  border-color: rgb(99, 116, 192);
+  transition-duration: .5s;
+  border-top: 1px solid rgb(197, 196, 196);
+}
