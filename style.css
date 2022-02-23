@@ -14,11 +14,11 @@ body { margin: 0; text-rendering: optimizeLegibility; }
 img  { width: 100% }
 svg  { max-height: 100% }
 
-/* Page
+/* Home Page
 ------------------------------------ */
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -38,9 +38,8 @@ body {
 .nav-container {
   width: 100%;
   padding: 0 30px;
-  background-color: #598392;
   text-align: center;
-  
+
 }
 
 .nav-container-nav {
@@ -53,13 +52,14 @@ body {
 
 .nav-container-nav li a {
   display: block;
-  padding: 5px 15px;
+  padding: 1px 10px;
 }
 
 .nav-container-logo {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   padding-top: 8px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Recipe Grid 
@@ -108,4 +108,70 @@ a {
   border-color: rgb(99, 116, 192);
   transition-duration: .5s;
   border-top: 1px solid rgb(197, 196, 196);
+}
+
+/* Recipe Page 
+------------------------------------ */
+ul {
+  list-style-type: none;
+}
+.recipe-name-container {
+  padding-top: 70px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.recipe-img-container {
+  display: flex;
+  margin: 0 100px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.recipe-img {
+  object-fit: contain;
+  padding-top: 25px;
+
+}
+.ingredients-container {
+  padding-top: 30px;
+}
+.ingredients-container {
+  margin: 20px 100px 20px
+}
+
+h2 {
+  font-size: 25px;
+  border-bottom: 1px solid rgb(99, 116, 192);
+  padding-bottom: 10px;
+}
+
+li {
+  padding-top: 15px;
+  font-size: 17px;
+}
+.recipe-list-quantity {
+  font-weight: 900;
+}
+
+.instructions-container {
+  padding-top: 30px;
+}
+.instructions-container {
+  margin: 20px 100px 20px
+}
+.instructions-container-step-number {
+  font-weight: 900;
+  padding-bottom:5px;
+  padding-top: 10px;
+}
+.instructions-container-step-text {
+  padding-top: 1px;
+  border-top: 1px solid white;
+}
+.instructions-container-step-text:hover {
+  transition-duration: .5s;
+  border-top: 1px solid rgb(99, 116, 192);
 }
